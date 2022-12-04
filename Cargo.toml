@@ -1,0 +1,12 @@
+[package]
+name = "ass3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusoto_core = "0.48.0"
+rusoto_s3 = "0.48.0"
+seahorse = "2.1"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3.25"
+zip = "0.6.3"
